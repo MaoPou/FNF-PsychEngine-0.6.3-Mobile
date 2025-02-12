@@ -85,7 +85,7 @@ class Hitbox extends MobileInputManager implements IMobileControls
 			case SINGLE:
 				add(buttonLeft = createHint(0, 0, Std.int(FlxG.width / 5), FlxG.height, 0xFFC24B99));
 		                add(buttonDown = createHint(Std.int(FlxG.width / 5), 0, Std.int(FlxG.width / 5), FlxG.height, 0xFF00FFFF));
-				add(buttonExtra = createHint(Std.int(FlxG.width / 5) * 2, 0, Std.int(FlxG.width / 5));
+				add(buttonExtra = createHint(Std.int(FlxG.width / 5) * 2, 0, Std.int(FlxG.width / 5), FlxG.height, 0xFFFF00));
 				add(buttonUp = createHint(Std.int(FlxG.width / 5) * 3, 0, Std.int(FlxG.width / 5), FlxG.height, 0xFF12FA05));
 	                        add(buttonRight = createHint(Std.int(FlxG.width / 5) * 4, 0, Std.int(FlxG.width / 5), FlxG.height, 0xFFF9393F));
 				
